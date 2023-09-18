@@ -1,0 +1,152 @@
+:root{
+    --imagen-width: 300px;
+    --imagen-height: 250px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px 20px;
+    background-color: rgba(228, 228, 228, 255);
+}
+
+.main-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    /* background-color: red; */
+    padding: 10px;
+    gap: 10px;
+    width: 90%;
+}
+
+.card-wrapper,
+.wrapper-group {
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: var(--imagen-width);
+    height: var(--imagen-height);
+    min-height: var(--imagen-height);
+}
+
+.login {
+    background-image: url('../Login/assets/img/imagenProyecto.png');
+    background-size: 100% 100%;
+}
+
+.logs {
+    background-image: url('../Tres-Practicas-node-js/assets/img/logs.png');
+    background-size: 100% 100%;
+}
+
+.factura{
+    background-image: url('../Tres-Practicas-node-js/assets/img/factura.png');
+    background-size: 100% 100%;
+}
+
+.factorial{
+    background-image: url('../Tres-Practicas-node-js/assets/img/factorial2.png');
+    background-size: 100% 100%;
+}
+
+.pruebasjs{
+    background-image: url('../Practicas-freecodecamp/Pruebas-js/assets/cursojs.png');
+    background-size: 100% 100%;
+}
+
+.vuejs{
+    background-image: url('../assets/vuejs.jpg');
+    background-size: 100% 100%;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.073);
+    color: black;
+}
+
+/* MORE APP */
+.moreapp {
+    background-image: url('../Moreapp/assets/moreapp.png');
+    background-size: 100% 100%;
+}
+
+.multiApp {
+    display: flex;
+    box-shadow: none;
+    width: 100%;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.taskapp {
+    background-image: url('../task-app/assets/taskapp.png');
+    background-size: 100% 100%;
+}
+
+.wrapper-practices {
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+}
+
+.wrapper-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: var(--imagen-width);
+    height: var(--imagen-height);
+}
+
+.wrapper-titulo {
+    font-size: 20px;
+}
+
+.citas {
+    background-image: url('../Practicas-freecodecamp/Citas-aleatorias/assets/citas.png');
+    background-size: 100% 100%;
+}
+
+.colorRandom {
+    background-image: url('../Practicas-freecodecamp/Color-aleatorio/assets/color.png');
+    background-size: 100% 100%;
+}
+
+.colorRGB {
+    background-image: url('../Practicas-freecodecamp/Color-RGB/assets/colorRGB.png');
+    background-size: 100% 100%;
+}
