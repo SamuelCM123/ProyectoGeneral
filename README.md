@@ -20,8 +20,8 @@ Maquetación de login intermedio`(HTML,CSS)`.
 - **[Color-RGB:](./src/Practicas-freecodecamp/Color-RGB/description.md)** Generador de colores RGB para el fondo por medio de rangos de valores`(HTML,CSS,JS)`.
 
 **Practicas VUE JS:**
-- **[Login:](./src/VueJS/PracticaLoginVueJS/vue-login/README.md)** Inicio de sesion y registro de usuario.
-- **[Contador:](./src/VueJS/PracticasContadorVueJS/vue-introduction/README.md)** Contador con parametros.
+- **[Login:](./src/VueJS/Login/README.md)** Inicio de sesion y registro de usuario.
+- **[Contador:](./src/VueJS/Contador/README.md)** Contador con parametros.
 ## **Verificación de Requisitos**
 
 - **Verificar Node**: 
@@ -118,7 +118,7 @@ Siga estos pasos para instalar y ejecutar el proyecto localmente:
     ### **Contador en Vue JS**:
     - Cambiarse a la siguiente carpeta:
     ```bash
-        cd .\src\VueJS\PracticasContadorVueJS\vue-introduction\
+        cd .\src\VueJS\Contador\
     ```
 
     - Introducir el siguiente comando:
@@ -128,7 +128,7 @@ Siga estos pasos para instalar y ejecutar el proyecto localmente:
     ### **Login en Vue JS**:
     - Cambiarse a la siguiente carpeta:
     ```bash
-        cd .\src\VueJS\PracticaLoginVueJS\vue-login\
+        cd .\src\VueJS\Login\
     ```
 
     - Introducir el siguiente comando:
