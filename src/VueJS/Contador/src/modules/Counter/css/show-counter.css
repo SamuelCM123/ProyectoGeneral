@@ -1,0 +1,17 @@
+.counter {
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+}
+
+.counter-value {
+    color: #41B883;
+    font-weight: bold;
+}
+
+.positivo {
+    color: rgb(0, 255, 0);
+  }
+  
+  .negativo {
+    color: red;
+  }

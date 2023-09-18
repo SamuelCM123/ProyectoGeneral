@@ -1,18 +1,27 @@
 # **Proyecto General**
 
+**Practicas de maquetación, DOM JS y NODE JS:**
 - **[Practica 1: Task App](./src/task-app/README.md)**
-Crud para tareas pendientes y completadas.
+Crud para tareas pendientes y completadas`(HTML,CSS,JS)`.
 - **[Practica 2: More App](./src/Moreapp/README.md)**
-Maquetación de login simple.
+Maquetación de login simple`(HTML,CSS)`.
 - **[Practica 3: Login](./src/Login/README.md)**
-Maquetación de login intermedio.
-- **[Practica 4: Ejercicio 3(Logs de error,facturas y factorial)](/src/Tres-Practicas-node-js/README.md)** 
-   > * Creación de logs por errores generados.
+Maquetación de login intermedio`(HTML,CSS)`.
+- **[Practica 4: Ejercicio 3(Logs de error,facturas y factorial)](/src/Tres-Practicas-node-js/README.md)**
+   > * Creación de logs por errores generados`(Node JS(Javascript))`.
    >
-   > * Determinación de facturas timbradas y canceladas.
+   > * Determinación de facturas timbradas y canceladas`(Node JS(Javascript))`.
    >
-   > * Determinación del factorial de un numero.
+   > * Determinación del factorial de un numero`(Node JS(Javascript))`.
 
+**Practicas FreeCodeCamp:**
+- **[Citas aleatorias:](./src/Practicas-freecodecamp/Citas-aleatorias/description.md)** Generador aleatorio de citas`(HTML,CSS,JS)`.
+- **[Color aleatorio:](./src/Practicas-freecodecamp/Color-aleatorio/description.md)** Cambio de color para el fondo con generación cadena hexadecimal aleatoria`(HTML,CSS,JS)`.
+- **[Color-RGB:](./src/Practicas-freecodecamp/Color-RGB/description.md)** Generador de colores RGB para el fondo por medio de rangos de valores`(HTML,CSS,JS)`.
+
+**Practicas VUE JS:**
+- **[Login:](./src/VueJS/Login/README.md)** Inicio de sesion y registro de usuario.
+- **[Contador:](./src/VueJS/Contador/README.md)** Contador con parametros.
 ## **Verificación de Requisitos**
 
 - **Verificar Node**: 
@@ -71,21 +80,21 @@ Siga estos pasos para instalar y ejecutar el proyecto localmente:
 
 2. Para poder acceder a la practica 4 que abarca el modulo de facturas, logs y factorial sera necesario ingresar los siguientes comandos a la terminal:
 
-- Practica 3: Log de errores:
+    - Practica 3: Log de errores:
 
-    ```bash
-    npm run generate-log
-    ```
+        ```bash
+        npm run generate-log
+        ```
 
     <div align="center">
         <img src="./src/Tres-Practicas-node-js/assets/img/Log-de-errores.png" alt="Login" width="450" />
     </div>
 
-- Practica 4: Formateo de facturas:
+    - Practica 4: Formateo de facturas:
 
-    ```bash
-    npm run amount-bills
-    ```
+        ```bash
+        npm run amount-bills
+        ```
 
     <div align="center">
         <img src="./src/Tres-Practicas-node-js/assets/img/Factura-1.png" alt="Login" width="450" />
@@ -94,16 +103,38 @@ Siga estos pasos para instalar y ejecutar el proyecto localmente:
         <img src="./src/Tres-Practicas-node-js/assets/img/Factura-2.png" alt="Login" width="450" />
     </div>
 
-- Practica 6: Determinación de factorial de un numero:
+    - Practica 6: Determinación de factorial de un numero:
 
-    ```bash
-        npm run factorial
-    ```
+        ```bash
+            npm run factorial
+        ```
     
     <div align="center">
         <img src="./src/Tres-Practicas-node-js/assets/img/factorial.png" alt="Login" width="450" />
     </div>
 
+3. Para visualizar los proyectos de Vue JS(Contador y login), es necesario seguir los siguientes pasos para levantar cada proyecto por consola:
+
+    ### **Contador en Vue JS**:
+    - Cambiarse a la siguiente carpeta:
+    ```bash
+        cd .\src\VueJS\Contador\
+    ```
+
+    - Introducir el siguiente comando:
+    ```bash
+        npm run dev
+    ```
+    ### **Login en Vue JS**:
+    - Cambiarse a la siguiente carpeta:
+    ```bash
+        cd .\src\VueJS\Login\
+    ```
+
+    - Introducir el siguiente comando:
+    ```bash
+        npm run dev
+    ```
 ## **Contacto**
 
 Si tienes alguna pregunta o comentario, no dudes en contactarme 🙋🏻‍♂️:

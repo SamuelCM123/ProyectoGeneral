@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #2B807B;
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.container-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: solid .5px black;
+    width: 40%;
+    height: 30%;
+    border-radius: 5px;
+}
+
+.container-group_p{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.container-group_button{
+    width: 50%;
+    height: 20%;
+    border-radius: 10px;
+    background-color: steelblue;
+    user-select: none;
+    color:white;
+    font-size: 1.2em;
+    cursor:pointer;
+    border: solid .5px steelblue;
+    margin: 7px;
+}
+
+.container-group_button:hover{
+    background-color: rgb(57, 105, 145);
+}
+
+/* RESET STYLES */
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+form, input, textarea, select, button, label {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    background-color: transparent;
+    color: inherit;
+    display: block;
+
+    /* --- opcional --- */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+h1{
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
